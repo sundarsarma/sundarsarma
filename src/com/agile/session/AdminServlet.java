@@ -10,7 +10,7 @@ public class AdminServlet extends HttpServlet{
 	public void doPost(HttpServletRequest req,HttpServletResponse res) throws ServletException, IOException
 	{
 		PrintWriter out=res.getWriter();
-		out.println("welcome successfully");
+		out.println("welcome success");
 		
 	}
 
